@@ -1,0 +1,568 @@
+      body{
+    	padding:0;
+    	margin:0;
+      background:#f2f2f2;
+      font-family: "Trebuchet", "Calibri";
+ /*     background-image:url("https://i.imgur.com/63hcCjp.jpg");*/
+      background-size:100% 100%;
+      background-position:center;
+      background-repeat:no-repeat;
+      min-height:500px;
+      background-attachment: fixed;
+   		}
+
+
+      .maincontent{
+      padding:0;
+      margin:0;
+      background:rgba(242, 242, 242, 0.51);
+      font-family: "Calibri";
+      /*background-image:url("http://i.imgur.com/tHBosfm.jpg");
+      background-image:url("http://i.imgur.com/Hqiar41.jpg");
+      background-image:url("http://i.imgur.com/YphT8C8.jpg");
+      background-width:100%;
+      background-position:center;
+      background-repeat:no-repeat;
+      min-height:500px;
+      background-attachment: fixed;*/
+      }
+   		
+   		/*
+      Colors
+      background: #f2f2f2;
+      Activities: rgba(175,255,211,0.6);
+      Navbar: #A0B4C8;
+      Navbar buttons: #efdb91;
+      Activity border: #3c9;
+      Sidebar: #242424;
+      Sidebar ac: #131313;
+      Fmain and upmain input hover: #c7c9d1;
+      
+      Acbutton hover #30AB7D;
+      */
+   		
+   		input{
+   		font:14px;
+   		
+   		}
+   		#About{
+   			display:block;
+   			float:left;
+   			
+   		
+   			color:darkred;
+   			padding:10em;
+
+   		}
+      #About a{
+        text-transform: uppercase;
+        text-align: center;
+        margin-left:30%;
+        border:1px solid black;
+        padding:2em;
+        display:block;
+        font-size:24px;
+        padding: 1em;
+         background: #efdb91;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 150px;
+        text-align: center;
+        border:2px solid gray;
+        text-decoration: none;
+      }
+
+
+      #About a:hover{
+        background:rgba(175,255,211,0.6);
+      }
+   		
+   		h1{
+   			text-align:center;
+   		
+   		}
+
+      ::-webkit-input-placeholder { /* Chrome */
+          color: gray;
+          font-size:14px;
+          text-align:center;
+      }
+
+   		.navbar{
+
+   			/*float:right;*/
+   			width:100%;
+   			height:5em;
+   			text-align: center;
+   			border:1px dotted #8a8;
+   			background:#A0B4C8;
+   			
+   		}
+
+      input{
+        background-color:#ffffff;
+      }
+
+     
+
+   		.navbar li{
+   			display:block;
+   			
+   			float:left;
+        
+   			
+   		}
+      .navbar a{
+        list-style-type:none;
+        /* border:1px dashed #3c9; */
+        
+        
+        background:#efdb91;
+      
+        padding: 0.5em;
+        border-radius:100px;
+      }
+
+   		.navbar a:link, a:visited, a:active{
+   			text-decoration: none;
+   			color:rgb(25,34,44);
+
+   		}
+   		.navbar a:hover{
+      
+        background:rgba(175,255,211,0.6);
+   		}
+
+      #AccessNavbar li{
+        margin-left:0.5em;
+
+      }
+      #noAccessNavbar li{
+        margin-left:2em;
+        margin-right:2em;
+
+      }
+
+      #loginform{
+      width:40%;
+      height:20em;
+      text-align:center;
+      border:1px dashed #3c9;
+      margin-left:25%;
+      margin-top:5%;
+      background:rgba(242, 242, 242, 0.51);
+      }
+
+      #loginform legend{
+        text-align: center;
+        padding:5%;
+        margin-left:39%;
+        font-size: 24px
+
+      }
+
+      #registerform{
+      width:40%;
+      height:25em;
+      text-align:center;
+      border:1px dashed #3c9;
+      margin-left:25%;
+      margin-top:5%;
+      background:rgba(242, 242, 242, 0.51);
+
+      }
+
+	  #upmain{
+	  	
+	  }
+      #upmain input{
+        padding:2em;
+        margin-top:1em;
+        background-color:#ffffff;
+      }
+
+      #acmain .Activity{
+        padding-top:1em;
+        padding-bottom:1em;
+        margin-bottom:2em;
+        margin-top:1em;
+        border:2px solid gray;
+        background:#c7c9d1;
+        background:rgba(175,255,211,0.6);
+        border-radius:50px;
+        
+      }
+
+      #acmain .Activity:hover{
+        background:rgba(175,255,211,1);
+
+      }
+      .maincontent{
+
+        margin-top:1em;
+        margin-bottom:1em;
+        margin-left:1em;
+        float:left;
+        display:block;
+        border:1px dashed #3c9;
+        padding:2em;
+        width:50%;
+        
+        text-align:center;
+
+      }
+
+      #tmain .Activity{
+        padding-top:1em;
+        padding-bottom:1em;
+        margin-bottom:2em;
+        margin-top:1em;
+        border:2px solid gray;
+      
+        background:rgba(175,255,211,0.6);
+        border-radius:50px;
+
+
+      }
+      #tmain{
+        
+      }
+
+      #acmain .Activity h1{
+        
+      }
+
+      
+
+      #upside .Activity{
+      }
+
+
+      .sidebar .Activity{
+
+         padding-top:1em;
+        padding-bottom:1em;
+        margin-bottom:1em;
+        margin-top:1em;
+        background:rgba(160, 180, 200, 0.67);
+        border:1px solid gray;
+        border-radius:20px;
+        color:black;
+      }
+
+
+
+       #ffside .Activity{
+   
+
+      }
+
+
+      .sidebar{
+        margin-left:1em;
+        margin-top:1em;
+        display:block;
+        float:left;
+        width:30%;
+       /*  height:100%; */
+        border:2px solid #666;
+        padding: 0.5em;
+       
+        background:rgba(242, 242, 242, 0.16);
+        color:black;
+        text-align:center;
+        
+      }
+
+
+
+      .sidebar input{
+        padding:2em;
+        margin-top:1em;
+        background:rgba(242, 242, 242, 0.16);
+        border:2px solid rgba(19, 18, 18, 0.12);
+        color:black;
+        font-size:12px;
+
+      }
+
+      ::-webkit-input-placeholder{
+        color:black;
+        font-size:14px;
+      }
+
+      ::-webkit-input-value{
+        font-size:14px;
+      }
+
+      #upmain .up{
+        clear:left;
+        margin-top:1em;
+        margin-left:1em;
+	
+      }
+      
+      #ffmain .f2{
+      border:1px dashed gray;
+      background: transparent;
+      
+      
+      }
+
+      #ffmain input{
+        padding:1em;
+
+      }
+
+      #ffmain #a1 input{
+        padding:3em;
+        margin-bottom:1em;
+      }
+
+      .friends{
+
+      border:1px black;
+
+      }
+
+      #upmain #u6 input{
+        /* input buttom*/
+        border:gray;
+
+      }
+
+
+      #sidebar #uploadform input:hover{
+        background:gray;
+      }
+
+
+      #upmain input:hover{
+        /* input buttom*/
+        background:#c7c9d1;
+        /*cursor: pointer;*/
+      }
+
+      #upmain input:focus{
+        /* input buttom*/
+        color:#00347c;
+        font-size:14px;
+      }
+
+      .sidebar #u6 input{
+        border:2px solid gray;
+
+      }
+
+      .sidebar #u6 input:hover{
+        background:#7c7c7c;
+        cursor:pointer;
+      }
+
+      #lbutton input{
+        padding:10px;
+        background:#efdb91;
+        width:100px;
+        border-radius:10px;
+        border:1px solid black;
+        font-size:15px;
+      }
+
+      #lbutton input:hover{
+        cursor:pointer;
+         background:rgba(175,255,211,0.6);
+      }
+
+      input:hover{
+        
+      }
+
+      
+
+      #nextpage button{
+     
+      }
+
+      #dbutton input{
+        padding:10px;
+        background:#efdb91;
+        width:150px;
+        border-radius:10px;
+        border:2px solid gray;
+        font-size:15px;
+
+      }
+      #dbutton input:hover{
+        cursor:pointer;
+        background:rgba(175,255,211,0.6);
+      }
+
+      .acbutton button{
+
+        padding:1em;
+        background:#efdb91;
+        border-radius:10px;
+        font-size:15px;
+        width:150px;
+        margin-top:3px;
+        border:2px solid gray;
+      }
+
+      
+       .acbutton button:hover{
+        cursor:pointer;
+        padding:1em;
+        background:rgba(175,255,211,0.6);
+        border-radius:10px;
+        font-size:15px;
+        width:150px;
+      }
+
+
+      
+
+      #trainingstats{
+        display:block;
+        float:left;
+        border:1px solid black;
+        text-align: center;
+        width:10%;
+        height:50%;
+        margin-left:1em;
+        margin-top:1em;
+       /*  height:100%; */
+        border:2px solid #666;
+        padding: 0.5em;
+       
+        background:#242424;
+        color:black;
+        text-align:center;
+
+      }
+
+      #tside{
+        float:left;
+
+      }
+
+      #tmain{
+        float:right;
+        display:block;
+        
+        margin-right:2%;
+      }
+
+      #editac{
+        margin:1em;
+        padding:2em;
+        padding-left:10em;
+        padding-right:10em;
+        margin-bottom:2em;
+        margin-top:1em;
+        border:2px solid gray;
+        background:#c7c9d1;
+        background:rgba(175,255,211,0.6);
+        /*rgba(19, 19, 19, 0.26);*/
+        /*rgba(175, 255, 211, 0.6);*/
+        /*background:#a_fffd3;*/
+        border-radius:50px;
+        
+        text-align:center;
+        float:left;
+        display:block;
+      }
+
+      #editform{
+        margin:1em;
+        display:block;
+        padding:2em;
+        margin-bottom:2em;
+        margin-top:1em;
+        border:2px solid gray;
+        background:#c7c9d1;
+        background:rgba(175,255,211,0.6);
+        border-radius:50px;
+        width:40%;
+        float:left;
+       
+
+      }
+      #tedit{
+        float:left;
+        width:50%;
+      }
+
+      #pmain #a,#p,#propic, #e,#n{
+        text-align: left;
+        float:left;
+        display:block;
+        clear:left;
+        margin-bottom: 20px;
+      }
+
+      (#pmain #a,#p,#propic, #e,#n) input{
+        padding:2em;
+      }
+
+
+
+      form#profile{
+        display:block;
+
+      }
+
+
+      #editform{
+        float:left;
+        text-align:right;
+        margin-left:20%;
+        margin:1em;
+      }
+
+      #editform input{
+        float:right;
+        text-align: left;
+        display:inline;
+        margin-right:20%;
+      }
+
+      
+      .right{
+        text-align:left;
+        display:inline;
+      }
+
+      .left{
+        margin-bottom:0.4em;
+
+      }
+
+      .submitter input{
+            padding: 1em;
+         background: #efdb91;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 150px;
+        text-align: center;
+        border:2px solid gray;
+      }
+
+      .submitter a{
+            padding: 1em;
+         background: #efdb91;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 150px;
+        text-align: center;
+        border:2px solid gray;
+      }
+
+      .submitter input:hover{
+        cursor:pointer;
+        background:rgba(175,255,211,0.6);
+
+      }
+
+
+
+      
